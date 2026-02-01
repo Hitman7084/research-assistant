@@ -1,4 +1,56 @@
-*.venv
+# =====================
+# Global
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Python / FastAPI
+# =====================
 __pycache__/
-data/
-*.env
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+.venv/
+env/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# =====================
+# Node / Next.js
+# =====================
+*node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Editor / IDE
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# Project-specific
+# =====================
+backend/data/
