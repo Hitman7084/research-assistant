@@ -1,3 +1,5 @@
 feedparser 
 google-generativeai
 python-dotenv
+fastapi
+uvicorn
